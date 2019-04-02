@@ -3,6 +3,8 @@
 
 ## choose your Environment 
 For now only for AmazonLinux
+- git clone https://github.com/keisukefunatsu/cloud9-dev-scripts.git
+- cd cloud9-dev-scripts
 - cd AmazonLinux
 
 ## Install All packages
