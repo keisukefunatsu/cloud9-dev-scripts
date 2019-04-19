@@ -1,0 +1,29 @@
+sites: 
+  - directory_name: "test_site27"
+    db_name: "app_dev"
+    db_user: "app_dev"
+    db_prefix: "wp27_"
+    db_password: 'app_dev_P455w0rd'
+    admin_user: "admin"
+    admin_password: "admin"
+    admin_email: "test@example.com"
+    site_title: "WordPress demo site"
+    extra_php: |
+      define( 'DISALLOW_FILE_EDIT',true );
+    test_data: false
+    plugins:
+      - show-current-template
+      - all-in-one-wp-security-and-firewall
+      - walti
+      - contact-form-7
+      - flamingo
+      - cf7-invisible-recaptcha
+      - wp-mail-smtp
+      - google-sitemap-generator
+      - all-in-one-seo-pack
+      - tinymce-advanced
+      - wp-multibyte-patch
+      - wp-total-hacks
+      - broken-link-checker
+      - all-in-one-wp-migration
+      - ip-geo-block

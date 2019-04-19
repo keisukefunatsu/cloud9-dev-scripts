@@ -21,3 +21,10 @@ For now only for AmazonLinux
 - `bash php.sh`
 - `bin/cake server -H $IP -p $PORT` to start CakePHP
 - `php artisan serve --host=$IP --port=$PORT` to start Laravel
+
+## Apache
+- Copy `httpd.conf` to your apache2 configuration file
+
+- `sudo service restart httpd2`
+- `mkdir public ~/environment`
+- `sudo chmod 755 ~/environment/public`
